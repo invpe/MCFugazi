@@ -1,5 +1,7 @@
 ![image](https://github.com/user-attachments/assets/b91f4cc3-c11f-4f5e-aa60-7f954c3e5773)
 
+# MineCraft Paper 1.21.1 SERVER
+
 <details>
 <summary>English</summary>
   Setting up Your own MineCraf server is not that hard, it requires zero knowledge and with this tutorial you can do it - so just follow it easily.
@@ -63,10 +65,11 @@ You can reattach to this session using: screen -r minecraft_server
   5. You can return to the MC server console with a simple `screen -r minecraft_server`
 
 Important: The server runs in default settings, be advised that it is ok to play but might be risky if not secured properly!
-     
 </details>
 
 
 <details>
 <summary>Polski</summary>
 </details>
+
+
