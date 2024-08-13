@@ -1,0 +1,2 @@
+# MCFugazi
+MineCraft dedicated things
