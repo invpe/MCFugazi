@@ -20,4 +20,4 @@ echo "Starting Minecraft server in a screen session as $MC_USER..."
 sudo -u $MC_USER screen -S minecraft_server -dm bash -c "cd $MC_DIR && java -jar $MC_JAR"
 
 echo "Minecraft server started in a detached screen session named 'minecraft_server'."
-echo "You can reattach to this session using: screen -r minecraft_server"
+echo "You can reattach to this session using: su - mcfugazi &&  screen -r minecraft_server"
