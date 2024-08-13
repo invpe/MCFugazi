@@ -1,3 +1,3 @@
-# MineCraft Fugazi dedicated things
+![image](https://github.com/user-attachments/assets/831c7377-b94b-4296-97f0-086ecb531dcb)
 
-This is a repo of things that were developed for Minecraft, you'll find custom plugins and server start scripts & tweaks.
+# MCFugazi - MineCraft dedicated things
