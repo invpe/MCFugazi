@@ -35,7 +35,7 @@ Minecraft server started in a detached screen session named 'minecraft_server'.
 You can reattach to this session using: screen -r minecraft_server
 ```
 
-  5. You can return to the MC server console with a simple `screen -r minecraft_server`
+  5. You can return to the MC server console with a simple `su - mcfugazi && screen -r minecraft_server`
 
 Important: The server runs in default settings, be advised that it is ok to play but might be risky if not secured properly!
 </details>
