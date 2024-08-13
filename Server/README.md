@@ -17,36 +17,9 @@
   We will cover changes in future revisions and updates to this repo.
 
   1. Login to your host as `root`
-  2. Create a new user which will run the server `adduser mcfugazi`
-  3. Run `apt-get update && apt-get upgrade -y`
-  4. Run `apt-get install screen -y`
-  5. Change directory to `cd /home/mcfugazi`
-  6. Download the installer: `wget https://github.com/invpe/MCFugazi/blob/main/Server/paper-install.sh`
-  7. Set +X mode `chmod +x paper-install.sh`
-  8. Run the installer `./paper-install.sh`
-  9. After it completes, run `java --version` to see if java is installed.
-
-  Next we have to change to the newly created user so follow:
-
-  1. Switch to the user created in my case it is: `su mcfugazi`
-  2. Your prompt will change to `mcfugazi@....:~$` that's good
-  3. Download the initial starter script: `wget https://github.com/invpe/MCFugazi/blob/main/Server/start_server.sh`
-  4. Enable +x `chmod +x start_server.sh`
-  5. Run it `./start_server.sh`
-  6. You will get EULA requirement to comply with, type `nano eula.txt`
-  7. Using arrows, go down and replace `eula=false` to `eula=true` as below:
-
-```
-#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
-#Tue Aug 13 14:22:52 CEST 2024
-eula=true
-```
-  8. Hit `CTRL+X`
-  9. Confirm with `Y`
-  10. Confirm filename with `enter`
-  11. You will return to the shell again
-  12. Start the server once more `./start_server.sh`
-  13. The server will initialize stuff, once that is done, your server is UP and running :)
+  2. Download the installation script `wget https://github.com/invpe/MCFugazi/blob/main/Server/paper-install.sh`
+  3. Execute `chmod +x paper-install.sh`
+  4. Run `./paper-install.sh`     
 
 Optionally, if you want to keep your server up and running after you logoff from the server, follow these points:
 
