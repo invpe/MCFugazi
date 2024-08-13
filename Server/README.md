@@ -2,12 +2,14 @@
 
 <details>
 <summary>English</summary>
-  Setting up Your own MineCraf server in just a few steps is not that easy, it requires zero knowledge with this tutorial so just follow it easily.
-  
+  Setting up Your own MineCraf server is not that hard, it requires zero knowledge and with this tutorial you can do it - so just follow it easily.
 
+  Prerequisite:
+  
   You need to have a dedicated hardware (computer) to run it, in most cases a simple `Raspberry PI` will be enough, but you can also get a dedicated
   VPS `Virtual Private Server` which you will access remotely. It is up to you, this tutorial doesn't cover which one to choose, but in this tutorial
-  i will be hosting the server on a VPS that i got from `ovh.com`.
+  i will be hosting the server on a VPS that i got from `ovh.com`. You can also host it on a Raspberry PI as mentioned earlier, to allow others to play on it
+  you will have to update your port forwarding properly. We will cover this in the next tutorial.
 
   Once you have a host on which you want to run the server, follow these steps below to get up and running - with the default settings.
   We will cover changes in future revisions and updates to this repo.
